@@ -790,7 +790,7 @@ int validate_server_config(
 	assert_enum_valid("Demo Mode", input_config->demo_mode);
 
 	// ledsPerStrip
-	assert_int_range_inclusive("LED Count", 1, 8096, input_config->leds_per_strip);
+	assert_int_range_inclusive("LED Count", 1, 618, input_config->leds_per_strip);
 
 	// usedStripCount
 	assert_int_range_inclusive("Strip/Channel Count", 1, 1, input_config->used_strip_count);
